@@ -5,9 +5,9 @@ import androidx.room.PrimaryKey
 
 @Entity(tableName = "quote")
 data class Quote(
-
     @PrimaryKey(autoGenerate = true)
-    val id:Int,
-    val text:String,
-    val Author: String
+    val id : Int,
+    val text: String,
+    val author: String
 )
+
